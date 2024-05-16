@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Directory</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li class="dropdown">
+          <a href="#">Contact</a>
+          <ul class="dropdown-menu">
+            <li><a href="lys125266@gmail.com">Gmail:lys126255@gmail.com</a></li>
+            <li><a href="#">Contact number: 09102203880</a></li>
+            <li><a href="#">FB: Jan Nemo Coloma</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="barangay">
+      <div class="lugar">
+        <ul>
+          <li><a href="#barretto">Barretto</a></li>
+          <li><a href="#sta-rita">Sta. Rita</a></li>
+          <li><a href="#east-bajac-bajac">East Bajac-Bajac</a></li>
+          <li><a href="#west-bajac-bajac">West Bajac-Bajac</a></li>
+          <li><a href="#gordon-heights">Gordon Heights</a></li>
+          <li><a href="#kalaklan">Kalaklan</a></li>
+          <li><a href="#east-tapinac">East Tapinac</a></li>
+          <li><a href="#new-cabalan">New Cabalan</a></li>
+          <li><a href="#old-cabalan">Old Cabalan</a></li>
+          <li><a href="#new-ilalim">New Ilalim</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="content">
+      <article>
+        <h2>Barretto</h2>
+        <p id="barretto-text">Barretto was constituted as a regular barrio. (The Making of Olongapo, Cabatit) The Barangay was named in honor of then Zambales Governor Manuel Barretto (1956-1967). This was more than a year after the United States turned over Olongapo to the Philippine Government.</p>
+        <!-- more paragraphs -->
+      </article>
+      <!-- more articles -->
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
